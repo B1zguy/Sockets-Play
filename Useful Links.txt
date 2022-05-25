@@ -1,0 +1,15 @@
+    Bootstrap stuff
+Cards component:
+https://getbootstrap.com/docs/4.5/components/card/#content-types
+
+List Groups:
+https://getbootstrap.com/docs/4.5/components/list-group/
+
+Buttons:
+https://getbootstrap.com/docs/4.0/components/buttons/
+
+Grid (system):
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+Padding/Margin:
+https://getbootstrap.com/docs/4.5/utilities/spacing/#how-it-works

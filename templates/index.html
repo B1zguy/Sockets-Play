@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sockets Play</title>
+
+    <!-- Bootstrap stuff | remainder near /body -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> <!-- Using older version for Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Sockets stuff -->
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js" integrity="sha384-DkkWv9oJFWLIydBXXjkBWnG1/fuVhw8YPBq37uvvD6WSYRFRqr21eY5Dg9ZhmWdy" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h1> Sockets Play with Buttons! </h1>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card text-white bg-dark mb-3">
+                <h3 class="card-header"> Le Buttön </h3>
+                <div class="card-body text-secondary">
+                    <h5 class="card-title"> Watch this space ... </h5>
+
+
+                </div>
+                <div class="card-footer">
+                    <button type="button" id="bPressed" class="btn btn-primary btn-lg btn-block"> Click Me, Senpai </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card bg-light mb-3">
+                <h3 class="card-header"> TrIgGeReD </h3>
+                <div class="card-body">
+                    <h5 class="card-text"> Wait, where did this come from? </h5>
+
+                    <ul id='updates' class="list-group list-group-flush mt-3">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Remainder Bootstrap stuff -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
